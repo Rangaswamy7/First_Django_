@@ -2,7 +2,7 @@ from django.shortcuts import render,redirect
 from .models import rangu,rangu2
 from django.http import HttpResponse
 # Create your views here.
-def fun(request):
+#def fun(request):
 
     if request.method == 'POST':
 
